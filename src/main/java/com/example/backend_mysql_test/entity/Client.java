@@ -26,6 +26,13 @@ public class Client {
         this.participation = participation;
     }
 
+    public Client(Long id, String firstName, String lastName, BigDecimal participation) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.participation = participation;
+    }
+
     public Client() {
     }
 }
